@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   end
 
   get "/tyler" => "tylers#index"
+  get "/damme" => "dammes#index"
   
 end
