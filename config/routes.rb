@@ -27,4 +27,5 @@ Rails.application.routes.draw do
 
   get "/tyler" => "tylers#index"
 
+  get "/damme" => "dammes#index"
 end
