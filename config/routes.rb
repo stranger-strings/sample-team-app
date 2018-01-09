@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :v1 do
     get "/home" => "pages#index"
-    get "/pokemons" => "pokemon#random_pokemon"
+    get "/pokemons" => "pokemon#show_you_mah"
   end
 end
