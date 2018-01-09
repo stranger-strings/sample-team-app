@@ -11,6 +11,9 @@ Rails.application.routes.draw do
     get '/chumps' => 'chumps#index'
 
   end
+
+  get "/new_pages" => "new_pages#index"
+
   get "/tyler" => "tylers#index"
-  
+
 end
