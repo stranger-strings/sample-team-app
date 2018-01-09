@@ -5,4 +5,7 @@ Rails.application.routes.draw do
     get "/examples" => "examples#index"
     get '/chumps' => 'chumps#index'
   end
+
+  get "/tyler" => "tylers#index"
+  
 end
