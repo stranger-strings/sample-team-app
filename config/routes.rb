@@ -4,7 +4,9 @@ Rails.application.routes.draw do
     get "/pokemons" => "pokemon#show_you_mah"
     get '/puppies' => 'pmoneys#index'
     get "/examples" => "examples#index"
+    get '/bsexamples' => 'bs_examples#index'
     get '/chumps' => 'chumps#index'
+
   end
 
   get "/tyler" => "tylers#index"
