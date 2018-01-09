@@ -3,13 +3,18 @@ Rails.application.routes.draw do
     get "/home" => "pages#index"
 
 
+
     get "/fairchild" => "fairchild#index"
 
     get "/examples" => "examples#index"
 
 
+
+    get "/pokemons" => "pokemon#show_you_mah"
+
     get '/puppies' => 'pmoneys#index'
     get "/examples" => "examples#index"
+    get '/bsexamples' => 'bs_examples#index'
     get '/chumps' => 'chumps#index'
 
   end
