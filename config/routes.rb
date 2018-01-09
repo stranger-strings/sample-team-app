@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   end
 
+  get "/new_pages" => "new_pages#index"
+
   get "/tyler" => "tylers#index"
-  
+
 end
