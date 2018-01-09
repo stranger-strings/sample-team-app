@@ -4,12 +4,16 @@ Rails.application.routes.draw do
 
 
 
+
     get "/fairchild" => "fairchild#index"
 
     get "/examples" => "examples#index"
 
 
 
+
+    get "/long" => "long_branches#index"
+    get "/examples" => "examples#index"
     get "/pokemons" => "pokemon#show_you_mah"
 
     get '/puppies' => 'pmoneys#index'
@@ -19,6 +23,8 @@ Rails.application.routes.draw do
 
   end
 
+  get "/new_pages" => "new_pages#index"
+
   get "/tyler" => "tylers#index"
-  
+
 end
